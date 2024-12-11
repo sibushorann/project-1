@@ -1,0 +1,89 @@
+body{
+  scroll-behavior:smooth;
+}
+.crs-img{
+    width:100%;
+    height:730px;
+    padding: 0px 150px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.navbar-brand>span
+{
+  font-family: "Henny Penny", system-ui !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-padding{
+    padding:90px;
+}
+.card-img-top2
+{
+    float: right;
+}
+.custom-bg-red {
+  background-color: #7a231d !important; /* Changed red to #7a231d */
+}
+.btn-outline-primary {
+  color: #4d5d45; /* Changed blue to #4d5d45 */
+  border-color: #4d5d45;
+}
+.btn-outline-primary:hover {
+  background-color: #4d5d45;
+  color: #fff;
+}
+.btn-primary {
+  background-color: #4d5d45 !important; /* Changed blue to #4d5d45 */
+  border-color: #4d5d45 !important;
+  box-shadow: none !important;
+  transition: transform 0.2s ease !important;
+}
+.btn-primary:hover {
+  background-color: #3d4b39 !important; /* Slightly darker hover */
+}
+.bg-primary {
+  background-color: #7a231d !important; /* Changed red to #7a231d */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(80%); /* Adjusted visibility for new theme */
+}
+/* Footer Background */
+.container-fluid.bg-primary.section-padding {
+  background-color: #4d5d45 !important;
+}
+
+/* Our Mission Section Background */
+.container-fluid.section-padding.bg-primary {
+  background-color: #4d5d45 !important;
+}
+.btn-outline-primary {
+  border-color: #4d5d45 !important;
+  color: #4d5d45; /* Optional: To match the text color with the border */
+}
+
+.btn-outline-primary:hover {
+  background-color: #4d5d45 !important;
+  color: white; /* Optional: To make the text visible on hover */
+}
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+a.btn {
+  border-radius: 5px; /* Rounded buttons */
+  margin: 0px 10px !important;
+}
+
+a.btn:hover {
+  
+  color: white; /* Change text color */
+  background-color: #4d5d45 !important; /* Changed blue to #4d5d45 */
+  border-color: #4d5d45 !important;
+}
+span{
+ 
+  font-family:  "Henny Penny", system-ui;
+}
